@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../img/agathe-marty-2cdvYh6ULCs-unsplash.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.main {
+    margin-top: 40vh;
+    text-shadow: 5px 5px 5px orange, 5px 5px orange;
+}
+
+.nama {
+    text-shadow: 3px 3px 0px orange;
+}
+
+button {
+    box-shadow: 10px 10px 0px orange;
+    transition: ease-out .2s;
+}
+
+button:hover {
+
+    transition: ease-out .2s;
+    box-shadow: none;
+}
